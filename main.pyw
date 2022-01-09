@@ -18,20 +18,20 @@ PIL_image.close()   # Unloads the image
 # Changes X, Y to use later for resizing image and window to stay within certain size
 if X > Y:
     ratio = X / Y
-    if X > 1000:
-        X = 1000
-        Y = round(int(1000/ratio))
-    elif X < 300:
-        X = 300
-        Y = round(int(100/ratio))
+    if X > 600:
+        X = 600
+        Y = round(int(600/ratio))
+    elif X < 500:
+        X = 500
+        Y = round(int(500/ratio))
 elif Y >= X:
     ratio = Y/X
-    if Y > 1000:
-        Y = 1000
-        X = round(int(1000/ratio))
-    elif Y < 300:
-        Y = 300
-        X = round(int(100/ratio))
+    if Y > 600:
+        Y = 600
+        X = round(int(600/ratio))
+    elif Y < 500:
+        Y = 500
+        X = round(int(500/ratio))
 
 class Win(tk.Tk):
     def __init__(self):
