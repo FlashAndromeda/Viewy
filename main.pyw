@@ -36,13 +36,13 @@ if X > Y:
         X = minsize
         Y = round(int(500/ratio))
 elif Y >= X:
-    ratio = Y/X
+    ratio = X / Y
     if Y > maxsize:
-        Y = maxsize
-        X = round(int(maxsize / ratio))
+        Y = round(int(maxsize / ratio))
+        X = maxsize
     elif Y < minsize:
-        Y = minsize
-        X = round(int(minsize / ratio))
+        Y = round(int(minsize / ratio))
+        X = minsize
 
 # The class that contains everything
 class Win(tk.Tk):
