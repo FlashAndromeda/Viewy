@@ -11,4 +11,4 @@ python SCRIPT_PATH %1
 \
 \
 \
-I can probably simplify the code a fair bit and add some functionality but I'm lazy rn, maybe in the future.
+I can probably simplify the code a fair bit and add some functionality but I'm busy learning other stuff, maybe in the future.
