@@ -9,7 +9,7 @@ I can probably simplify the code a fair bit and add some functionality but I'm b
 
 # Controls
 
-Used through the 'Send to' part of the context menu.\
+Used through the 'Send to' part of the context menu.
 
 Left-click and drag to drag the window around.\
 Right-click the picture to exit the viewer.\
