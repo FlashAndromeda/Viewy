@@ -5,7 +5,7 @@ Add a .cmd file to your shell:sendto folder with the following code:
 >cls \
 >python SCRIPT_PATH %1
 
-I can probably simplify the code a fair bit and add some functionality but I'm busy learning other stuff, maybe in the future.
+I can probably simplify the code a fair bit and add some functionality but I'm busy learning other stuff. I know the current way of zooming in/out is horrible :^)
 
 # Controls
 
